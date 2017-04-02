@@ -1,0 +1,19 @@
+Build on Kali Linux
+
+Within /etc/ssh/sshd_config
+  Comment out the following line: 
+    PermitRootLogin prohibit-password
+  Add in the following line:
+    PermitRootLogin no
+Restart the SSHD service
+  service ssh restart
+  
+Create a new user called hashcrackingtestuser and create some public/private keys for them.
+  
+Within the hashcrackingtestuser's .ssh/authorized_keys file, add the following before the 'ssh-rsa' bit
+    command="python3 /home/hashcrackingtestuser/pihacking.py ${SSH_ORIGINAL_COMMAND#* }"
+    
+Ensure there are full read/write permissions on /tmp
+    chmod 777 /tmp
+    
+   
