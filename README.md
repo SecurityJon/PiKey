@@ -8,7 +8,10 @@ PiKey is Physical Penetration Testing device used for the extraction and reuse o
 
 Based on the Raspberry Pi Zero W, the PiKey builds upon the Credential stealing attacks by Mubix in 2016 (https://room362.com/post/2016/snagging-creds-from-locked-machines/) and attempts to use stolen credentials to unlock machines. It typically takes one to three minutes to unlock a machine.
 
-The PiKey is due to be demonstrated at the BSidesLondon 2017 conference.
+The PiKey is due to be demonstrated at the BSidesLondon 2017 conference, a video of it in action can be found below.
+<div align="center"> 
+	<a href="http://www.youtube.com/watch?feature=player_embedded&v=1nfS4RDPveo" target="_blank"><img src="http://img.youtube.com/vi/1nfS4RDPveo/0.jpg" alt="IMAGE ALT TEXT HERE"  border="10" /></a>
+</div>
 
 ## How does it Work?
 
