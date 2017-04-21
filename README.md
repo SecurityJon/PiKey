@@ -137,6 +137,11 @@ Setup of the PiKey is broken into two stages, the client (PiKey device) and the 
 	```bash
 	bash <(curl -s https://raw.githubusercontent.com/SecurityJon/PiKey/master/server/install.sh)
 	```
+	
+- All hashes captured by the Server can be seen with the following command:
+	```bash
+	cat /home/pikeyuser/PiKey/PiKey_CapturedHashes.txt
+	```
 ## Q&A
 
 - I'm going to be using the PiKey for Penetration Testing engagements, how do I know the client's data is secure?
