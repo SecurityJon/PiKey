@@ -55,13 +55,14 @@ Out "OK" "Creating Security Keys"
 if [ -e $KEYFILE ]; then
     Out "WARN" "SSH Public Key already exists, deleting"    
     sudo rm $KEYFILE
-else
-    Out "OK" "Creating SSH Public Key"
-    if [ ! -e "/home/$USER/.ssh" ]; then
-	      sudo mkdir "/home/$USER/.ssh"
-    fi
-    sudo touch $KEYFILE
 fi
+
+Out "OK" "Creating SSH Public Key"
+if [ ! -e "/home/$USER/.ssh" ]; then
+	sudo mkdir "/home/$USER/.ssh"
+fi
+sudo touch $KEYFILE
+
     
 
 echo "Paste in the SSH Public Key generated during the client install > "
