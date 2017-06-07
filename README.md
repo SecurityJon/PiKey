@@ -32,7 +32,7 @@ The following hardware is required for the PiKey to work
 * One of the following LEDs for user feedback (optional)
   * Pimoroni Blinkt (https://shop.pimoroni.com/products/blinkt)
   * Pimoroni ScrollPhat (https://shop.pimoroni.com/products/scroll-phat)
-* A case for the Pi Zero W (Optional)
+* A case for the Pi Zero W (Optional) - One used in image (https://thepihut.com/products/zebra-zero-for-raspberry-pi-zero-black-ice)
 * MicroUSB cable to connect the Pi Zero W to a victim computer
 
 The following software is required for the PiKey to work
@@ -175,6 +175,8 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 ## Thanks
 
-Thanks for the following individuals for help on this project
+Thanks for the following individuals for help on this project:
+
 Mark Stone for the great name
+
 James Parish for the inital PiKey logo
