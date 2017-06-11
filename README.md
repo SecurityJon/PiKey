@@ -10,7 +10,7 @@ Based on the Raspberry Pi Zero W, the PiKey builds upon the Credential stealing 
 
 The PiKey is due to be demonstrated at the BSidesLondon 2017 conference, a video of it in action can be found below.
 <div align="center"> 
-	<a href="http://www.youtube.com/watch?feature=player_embedded&v=1nfS4RDPveo" target="_blank"><img src="http://img.youtube.com/vi/1nfS4RDPveo/0.jpg" alt="IMAGE ALT TEXT HERE"  border="10" /></a>
+	<a href="http://www.youtube.com/watch?feature=player_embedded&v=_eCEbvPnygk" target="_blank"><img src="http://img.youtube.com/vi/_eCEbvPnygk/0.jpg" alt="IMAGE ALT TEXT HERE"  border="10" /></a>
 </div>
 
 ## How does it Work?
