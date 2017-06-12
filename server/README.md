@@ -10,5 +10,5 @@ The instructions below are used to configure the Server.
 - Run the setup script as root (or a user with sudo permissions)
 
 	```bash
-	bash <(curl -s https://raw.githubusercontent.com/my-wii-is-on-fire/pipasswordhacking/master/PiKey/server/install.sh)
+	bash <(curl -s https://raw.githubusercontent.com/SecurityJon/PiKey/master/server/install.sh)
 	```
