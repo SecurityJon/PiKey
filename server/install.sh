@@ -86,7 +86,7 @@ sudo chmod 777 /tmp
 
 ##Grab PiKey
 Out "OK" "Downloading PiKey"
-sudo git clone https://github.com/my-wii-is-on-fire/pipasswordhacking.git /tmp/PiKey/
+sudo git clone https://github.com/SecurityJon/PiKey.git /tmp/PiKey/
 
 ##Lets move the files to the correct locations
 Out "OK" "Moving Files"
