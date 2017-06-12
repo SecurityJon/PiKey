@@ -91,7 +91,7 @@ sudo git clone https://github.com/SecurityJon/PiKey.git /tmp/PiKey/
 ##Lets move the files to the correct locations
 Out "OK" "Moving Files"
 sudo mkdir /home/$USER/PiKey
-sudo mv /tmp/PiKey/PiKey/server/serversidescript.py /home/$USER/PiKey/serversidescript.py && sudo chmod +x /home/$USER/PiKey/serversidescript.py
+sudo mv /tmp/PiKey/server/serversidescript.py /home/$USER/PiKey/serversidescript.py && sudo chmod +x /home/$USER/PiKey/serversidescript.py
 sudo chown -R $USER:$USER /home/$USER
 sudo rm -rf /tmp/PiKey/
 
