@@ -122,7 +122,7 @@ Setup of the PiKey is broken into two stages, the client (PiKey device) and the 
 
 - Reboot (with the screen connected as this will print the DHCP IP address for the wireless adapter). Log back in via SSH.
 			
-- Run the setup script as the normal user.
+- Run the setup script as the **non-root** user.
 
 	```bash
 	bash <(curl -s https://raw.githubusercontent.com/SecurityJon/PiKey/master/client/install.sh)
@@ -135,7 +135,7 @@ Setup of the PiKey is broken into two stages, the client (PiKey device) and the 
 - Get a copy of Kali Linux up and running, with internet connectivity and port 22 forwarded from the internet
 - Make note of the URL/IP address of the internet facing side of the device	
 
-- Run the setup script as root (or a user with sudo permissions)
+- Run the setup script as **root** (or a user with sudo permissions)
 
 	```bash
 	bash <(curl -s https://raw.githubusercontent.com/SecurityJon/PiKey/master/server/install.sh)
@@ -167,7 +167,7 @@ The PiKey itself doesn't store any obtained or cracked credentials on it, so if 
 
 ## Copyright
 
-PiKey Created by Jon Aubrey (@SecurityJon) and Trevor Shingles, 2017
+PiKey Created by Jon Aubrey (@SecurityJon) and Trevor Shingles (@_tshingles), 2017
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
