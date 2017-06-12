@@ -66,5 +66,5 @@ The instructions below are used to configure the Pi Zero.
 - Run the setup script as the normal user.
 
 	```bash
-	bash <(curl -s https://raw.githubusercontent.com/my-wii-is-on-fire/pipasswordhacking/master/PiKey/client/install.sh)
+	bash <(curl -s https://raw.githubusercontent.com/SecurityJon/PiKey/master/client/install.sh))
 	```
