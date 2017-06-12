@@ -93,12 +93,12 @@ sudo git clone https://github.com/SecurityJon/PiKey.git /tmp/PiKey/
 
 ##Lets move the files to the correct locations
 Out "OK" "Moving Files"
-sudo mv /tmp/PiKey/PiKey/client/blinktimport.py /home/pi/PiKey/blinktimport.py && sudo chmod +x /home/pi/PiKey/blinktimport.py
-sudo mv /tmp/PiKey/PiKey/client/scrollphatimport.py /home/pi/PiKey/scrollphatimport.py && sudo chmod +x /home/pi/PiKey/scrollphatimport.py
-sudo mv /tmp/PiKey/PiKey/client/picracking.py /home/pi/PiKey/picracking.py && sudo chmod +x /home/pi/PiKey/picracking.py
-sudo mv /tmp/PiKey/PiKey/client/g_hid.ko /lib/modules/4.4.50+/kernel/drivers/usb/gadget/legacy/g_hid.ko
-sudo mv /tmp/PiKey/PiKey/client/hid-gadget /home/pi/PiKey/hid-gadget && sudo chmod +x /home/pi/PiKey/hid-gadget
-sudo mv /tmp/PiKey/PiKey/client/dhcpd.conf /etc/dhcp/dhcpd.conf
+sudo mv /tmp/PiKey/client/blinktimport.py /home/pi/PiKey/blinktimport.py && sudo chmod +x /home/pi/PiKey/blinktimport.py
+sudo mv /tmp/PiKey/client/scrollphatimport.py /home/pi/PiKey/scrollphatimport.py && sudo chmod +x /home/pi/PiKey/scrollphatimport.py
+sudo mv /tmp/PiKey/client/picracking.py /home/pi/PiKey/picracking.py && sudo chmod +x /home/pi/PiKey/picracking.py
+sudo mv /tmp/PiKey/client/g_hid.ko /lib/modules/4.4.50+/kernel/drivers/usb/gadget/legacy/g_hid.ko
+sudo mv /tmp/PiKey/client/hid-gadget /home/pi/PiKey/hid-gadget && sudo chmod +x /home/pi/PiKey/hid-gadget
+sudo mv /tmp/PiKey/client/dhcpd.conf /etc/dhcp/dhcpd.conf
 sudo chown -R pi:pi /home/pi
 
 ##Configure usb0
@@ -106,7 +106,7 @@ Out "OK" "Configuring usb0 Interface"
 if sudo grep -q "usb0" /etc/network/interfaces; then
 	Out "WARN" "Interface usb0 has already been confgiured in /etc/network/interfaces"
 else
-	cat /tmp/PiKey/PiKey/client/usb0-config | sudo tee --append /etc/network/interfaces > /dev/null
+	cat /tmp/PiKey/client/usb0-config | sudo tee --append /etc/network/interfaces > /dev/null
 fi
 
 #Configure the USB host mode.
